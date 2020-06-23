@@ -1,0 +1,36 @@
+/*
+    Jaune pale: #e6dc9a
+    Jaune fonce: #c19a73
+    Brun pale: #564239
+    Brun fonce: #483933
+    Rouge: #bd3941
+
+*/
+
+body {
+    background: #564239;
+}
+
+input { 
+    border: none;
+    border-bottom: black solid 2px;
+}
+select {
+    border: none;
+    border-bottom: black solid 2px;
+    width: 100x;
+}
+
+.subcontainer {
+    display: flex;
+    flex-direction: column;
+    border: black  solid 5px;
+    background: white;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+
+.infoItem {}
+.infoDropdown {}
+.subtitle {}
