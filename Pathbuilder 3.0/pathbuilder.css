@@ -14,13 +14,18 @@ body {
 input { 
     border: none;
     border-bottom: black solid 2px;
+    width: 100%;
 }
 select {
     border: none;
     border-bottom: black solid 2px;
-    width: 100x;
+    width: 100%;
 }
 
+
+.mainContainer {
+    display: block;
+}
 .subcontainer {
     display: flex;
     flex-direction: column;
@@ -28,7 +33,10 @@ select {
     background: white;
     border-radius: 25px;
     padding: 10px;
+    text-align: center;
 }
+
+
 
 
 .infoItem {}
